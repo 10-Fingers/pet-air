@@ -86,7 +86,7 @@ body {
 
 
 
-/*autoraiz  butoon */
+/*autoraiz  link */
 
 .autoraiz-list {
     padding-left: 0;
@@ -97,37 +97,38 @@ body {
 
 }
 
-.autoraiz-btn {
+.autoraiz-link {
+    display: inline-block;
+
     padding: 5px 23px;
     min-width: 104px;
 
     font-size: 14px;
     font-weight: 500;
 
-    cursor: pointer;
-    border: none;
+    text-decoration: none;
     border-radius: 5px;
 }
 
-.autoraiz-btn.rgistr {
+.autoraiz-link.rgistr {
     color: var(--primary-btn-color);
     background-color: transparent;
 }
 
-.autoraiz-btn.rgistr:hover,
-.autoraiz-btn.rgistr:focus {
+.autoraiz-link.rgistr:hover,
+.autoraiz-link.rgistr:focus {
     color: var(--secondary-btn-color);
     background-color: var(--primary-btn-color);
 }
 
 
-.autoraiz-btn.sign-in {
+.autoraiz-link.sign-in {
     color: var(--secondary-btn-color);
     background-color: var(--acent-btn-color);
 }
 
-.autoraiz-btn.sign-in:hover,
-.autoraiz-btn.sign-in:focus {
+.autoraiz-link.sign-in:hover,
+.autoraiz-link.sign-in:focus {
     background-color: var(--primary-btn-color);
 }
 
