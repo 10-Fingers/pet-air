@@ -1,0 +1,26 @@
+:root {
+    --primary-logo-color: rgb(101, 98, 147);
+    --secondary-logo-color: rgb(255, 255, 255);
+
+    --primary-bg-color: rgb(255, 255, 255);
+    --secondary-bg-color: rgb(101, 98, 147);
+    --acent-bg-color: rgb(245, 245, 245);
+
+    --primary-text-color: rgba(21, 21, 21, 0.6);
+    --secondary-text-color: rgb(21, 21, 21);
+    --tertiary-text-color: rgba(255, 255, 255, 0.7);
+    --acent-text-color: rgb(169, 169, 170);
+    --navigate-text-color: rgb(24, 24, 24);
+
+    --primary-titel-color: rgb(0, 0, 0);
+
+    --primary-btn-color: rgb(21, 21, 21);
+    --secondary-btn-color: rgb(255, 255, 255);
+}
+
+
+.container {
+    width: 1232px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
