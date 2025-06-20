@@ -10,12 +10,24 @@
     --secondary-text-color: rgb(21, 21, 21);
     --tertiary-text-color: rgba(255, 255, 255, 0.7);
     --acent-text-color: rgb(169, 169, 170);
+
     --navigate-text-color: rgb(24, 24, 24);
+    --navigate-acent-color: rgb(101, 98, 147);
 
     --primary-titel-color: rgb(0, 0, 0);
 
     --primary-btn-color: rgb(21, 21, 21);
     --secondary-btn-color: rgb(255, 255, 255);
+    --acent-btn-color: rgb(101, 98, 147);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
 }
 
 
@@ -23,4 +35,96 @@
     width: 1232px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+/* Logo */
+
+
+
+
+.logo {
+    font-family: 'Prosto+One', serif;
+    font-size: 22px;
+    text-transform: uppercase;
+
+    color: var(--primary-logo-color);
+    text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--navigate-text-color);
+}
+
+
+/* navigate */
+
+.navigate-list {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    list-style: none;
+}
+
+.navigate-item {}
+
+.navigate-link {
+    font-size: 14px;
+    font-weight: 500;
+
+    color: var(--navigate-text-color);
+    text-decoration: none;
+}
+
+.navigate-link:hover,
+.navigate-link:focus {
+    color: var(--navigate-acent-color);
+}
+
+
+
+/*autoraiz  butoon */
+
+.autoraiz-list {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    list-style: none;
+
+}
+
+.autoraiz-btn {
+    padding: 5px 23px;
+    min-width: 104px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.autoraiz-btn.rgistr {
+    color: var(--primary-btn-color);
+    background-color: transparent;
+}
+
+.autoraiz-btn.rgistr:hover,
+.autoraiz-btn.rgistr:focus {
+    color: var(--secondary-btn-color);
+    background-color: var(--primary-btn-color);
+}
+
+
+.autoraiz-btn.sign-in {
+    color: var(--secondary-btn-color);
+    background-color: var(--acent-btn-color);
+}
+
+.autoraiz-btn.sign-in:hover,
+.autoraiz-btn.sign-in:focus {
+    background-color: var(--primary-btn-color);
 }
