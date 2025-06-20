@@ -15,6 +15,8 @@
     --navigate-acent-color: rgb(101, 98, 147);
 
     --primary-titel-color: rgb(0, 0, 0);
+    --acent-titel-color: rgb(101, 98, 147);
+    --secondary-titel-color: rgb(21, 21, 21);
 
     --primary-btn-color: rgb(21, 21, 21);
     --secondary-btn-color: rgb(255, 255, 255);
@@ -127,4 +129,34 @@ body {
 .autoraiz-btn.sign-in:hover,
 .autoraiz-btn.sign-in:focus {
     background-color: var(--primary-btn-color);
+}
+
+
+
+/* HERO */
+
+.hero-titel {
+    margin-top: 0;
+    margin-bottom: 48px;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 66px;
+    font-weight: 400;
+    line-height: 1.16;
+
+    color: var(--secondary-titel-color);
+}
+
+.hero-titel .hero-acent {
+    color: var(--acent-titel-color);
+    text-transform: uppercase;
+}
+
+.hero-text {
+    margin: 0;
+
+    font-weight: 500;
+
+    color: var(--secondary-text-color);
 }
