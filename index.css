@@ -161,3 +161,82 @@ body {
 
     color: var(--secondary-text-color);
 }
+
+
+/* Requirements */
+
+.requirements-titel {
+    display: none;
+}
+
+.requirements-bord {
+    margin: 0 auto;
+
+    width: 1110px;
+    height: 266px;
+    background-color: black;
+}
+
+
+.requirements-btn {
+    padding: 27px 95px 26px 30px;
+    min-width: 233px;
+    min-height: 80px;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    color: var(--secondary-btn-color);
+    background-color: var(--acent-btn-color);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.requirements-btn:hover,
+.requirements-btn:focus {
+    color: var(--primary-btn-color);
+    background-color: var(--secondary-btn-color);
+}
+
+
+
+
+
+/* PURPOSES */
+
+.purposes-bg {
+    width: 400px;
+    height: 523px;
+
+    background-color: rgb(229, 244, 246);
+    border-radius: 0px 50px 50px 0px;
+}
+
+.purposes-titel {
+    margin-top: 0;
+    margin-bottom: 65px;
+
+    font-size: 36px;
+    text-align: center;
+
+    color: var(--primary-titel-color);
+}
+
+.purposes-list {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    list-style: none;
+}
+
+.purposes-sub-titel {
+    margin-top: 0;
+    margin-bottom: 14px;
+
+    font-size: 24px;
+    font-weight: 600;
+
+    color: var(--primary-titel-color);
+}
