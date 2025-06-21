@@ -275,6 +275,9 @@ body {
 }
 
 .perfomance-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 13px;
 
     border: 0.1px dashed var(--primary-text-color)
@@ -292,4 +295,52 @@ body {
 
 .perfomance-text {
     margin: 0;
+}
+
+
+
+/* CHARTERS */
+
+.charters-titel {
+    margin-top: 0;
+    margin-bottom: 69px;
+
+    font-size: 36px;
+    text-align: center;
+
+    color: var(--primary-titel-color);
+}
+
+.charters-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    list-style: none;
+}
+
+.charters-item {
+    padding: 10px 12px 14px 12px;
+
+    width: 255px;
+
+    border-radius: 12px;
+    box-shadow: 0px 1px 3px 0px rgba(19, 10, 46, 0.13), 0px 3px 14px 0px rgba(19, 10, 46, 0.03), 0px 8px 32px 0px rgba(19, 10, 46, 0.07), 0px 30px 84px 0px rgba(19, 10, 46, 0.08);
+}
+
+.charters-img {
+    display: block;
+
+    margin-bottom: 14px;
+}
+
+.charters-name {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+
+    color: var(--primary-titel-color);
 }
