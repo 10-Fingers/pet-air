@@ -344,3 +344,111 @@ body {
 
     color: var(--primary-titel-color);
 }
+
+
+
+/* membership */
+
+.memvership-titel {
+    margin-top: 0;
+    margin-bottom: 65px;
+
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+
+    color: var(--primary-titel-color);
+}
+
+.membership-cards {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.card {
+    padding: 24px;
+
+    width: 400px;
+
+
+    border-radius: 20px 0px 0px 20px;
+    background: var(--acent-bg-color)
+}
+
+.card-titel {
+    margin-top: 0;
+    margin-bottom: 32px;
+
+    font-size: 32px;
+
+    color: var(--primary-titel-color);
+}
+
+
+.card-text {
+    margin-top: 0;
+    margin-bottom: 24px;
+
+    font-size: 22px;
+
+    color: var(--acent-text-color);
+}
+
+.card-dignitys {
+    margin-top: 0;
+    margin-bottom: 83px;
+    padding-left: 0;
+
+    list-style: none;
+}
+
+
+
+.dignity-item {}
+
+.dignity-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.dignity-text {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-weight: 500;
+
+    color: var(--secondary-text-color);
+}
+
+.card-price {
+    margin-top: 0;
+    margin-bottom: 24px;
+
+    font-size: 18px;
+
+    color: var(--secondary-text-color);
+}
+
+.price-acent {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.card-btn {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    min-width: 352px;
+    min-height: 64px;
+
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+
+    color: var(--secondary-btn-color);
+    background-color: var(--acent-btn-color);
+    border-radius: 12px;
+    border-color: transparent;
+
+    cursor: pointer;
+}
